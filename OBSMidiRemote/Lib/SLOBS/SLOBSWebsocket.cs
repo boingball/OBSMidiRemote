@@ -508,7 +508,7 @@ namespace OBSMidiRemote.Lib.SLOBS
                         }
                         catch (Exception ex)
                         {
-
+                            
                         }
                         _responseHandlers.Remove(msgID);
                     }

@@ -314,7 +314,7 @@ namespace OBSMidiRemote.Lib
                 Connecting = false;
                 Midi.Display(EMidiOBSItemType.ReloadObsData, EMidiOBSOutputType.Off, -1, -1, true);
 
-                await Obs.Reload();
+                //await Obs.Reload();
 
                 Midi.Display(EMidiOBSItemType.ReloadObsData, EMidiOBSOutputType.On, -1, -1, true);
                 Midi.RenderSurface();

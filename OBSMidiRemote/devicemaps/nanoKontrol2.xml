@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OBSDeviceMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapInfo>
+    <Name>nanoKONTROL2</Name>
+    <Author>bOingball</Author>
+    <DeviceName>nanoKONTROL2</DeviceName>
+    <Description lang="en">09112020</Description>
+    <Description lang="en">09112020</Description>
+    <Website>https://twitch.tv/boingball</Website>
+    <Version>1.0</Version>
+  </MapInfo>
+  <Map packet-interval="0" max-packet="-1" baudrate="115200">
+    <Items>
+      <Item type="single" bind="audio-item" obsmode="0" index="0" modifier="-1" step="0">
+        <Input type="on" cmd="0xB0" channel="0x00" data1="0x20" data2="0x7F" />
+      </Item>
+    </Items>
+  </Map>
+</OBSDeviceMap>
